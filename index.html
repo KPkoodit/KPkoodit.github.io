@@ -1,0 +1,72 @@
+---
+layout: default
+title: Home
+---
+
+<div class="container">
+  <section class="first-section" id="about">
+    <h1>About Me</h1>
+    <p>Hello! My name is Katja and I am a software developer student close to graduation.
+      On this website, I showcase projects I have worked on during my studies and what I have learned from them.
+      I also provide a brief overview of my technical skills and interests related to the IT field.</p>
+  </section>
+
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="projects-grid">
+      {% assign sorted_projects = site.projects | sort: "weight" %}
+      {% for project in sorted_projects %}
+        <div class="project">
+          <a href="{{ project.url }}" class="project-link">
+            <div class="project-content">
+              <h3>{{ project.title }}</h3>
+              <ul>
+                {% for tech in project.technologies %}
+                  <li>{{ tech }}</li>
+                {% endfor %}
+              </ul>
+              <p>{{ project.description }}</p>
+              <p class="read-more">Read more →</p>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="skills">
+    <h1>Skills</h1>
+    <div class="skills-grid">
+      {% assign sorted_skills = site.skills | sort: "weight" %}
+      {% for skill in sorted_skills %}
+        <div class="skill">
+          <a href="{{ skill.url }}" class="skill-link">
+            <div class="skill-content">
+              <h3>{{skill.title}}</h3>
+              <p class="read-more">Read more →</p>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="interests">
+    <h1>Interests</h1>
+    <div class="interests-grid">
+      <div class="interest">
+        <div class="interest-content">
+          <h3>Desktop App and<br>Web App Development</h3>
+          <p>Interested in both frontend and backend development, also debugging and writing documentation.</p>
+        </div>
+      </div>
+      <div class="interest">
+        <div class="interest-content">
+          <h3>Artificial Intelligence and <br>Machine Learning</h3>
+          <p>AI application development and understanding the technology behind AI models.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>

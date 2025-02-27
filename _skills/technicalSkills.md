@@ -6,7 +6,7 @@ weight: 1
 
 Here is a list of some of the technologies I have used for developing. It is meant to be a quick, scannable summary to help understand my familiarity with each technology. I am also enthusiastic about learning new technologies and deepen my expertise in the ones I already know.
 
-⭐⭐⭐ **Familiar** – Long-term and extensive projects, a technology used frequently
+⭐⭐⭐ **Familiar** – Long-term and extensive study projects, a technology used frequently
 
 ⭐⭐ **Basic Experience** – Smaller-scale projects, a technology used repeatedly
 

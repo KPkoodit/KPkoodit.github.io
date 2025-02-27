@@ -6,11 +6,11 @@ weight: 1
 
 Here is a list of some of the technologies I have used for developing. It is meant to be a quick, scannable summary to help understand my familiarity with each technology. I am also enthusiastic about learning new technologies and deepen my expertise in the ones I already know.
 
-⭐⭐⭐ **Familiar** – Regularly used, comfortable with core concepts, and able to apply effectively
+⭐⭐⭐ **Familiar** – Long-term and extensive projects, a technology used frequently
 
-⭐⭐ **Basic Experience** – Some hands-on practice, understanding fundamentals, and have implemented features or solved problems using the technology
+⭐⭐ **Basic Experience** – Smaller-scale projects, a technology used repeatedly
 
-⭐ **Exploring** – Limited experience, basic understanding, and can complete tasks following a tutorial
+⭐ **Exploring** – Individual projects, familiar with the applied parts of the technology
 
 ## Programming languages
 
@@ -18,8 +18,6 @@ Here is a list of some of the technologies I have used for developing. It is mea
 |JavaScript     |⭐⭐⭐     |
 |TypeScript     |⭐⭐       |
 |Python         |⭐⭐       |
-|SQL            |⭐⭐       |
-|GraphQL        |⭐⭐       |
 
 ## Web and Markup Languages
 
@@ -40,6 +38,8 @@ Here is a list of some of the technologies I have used for developing. It is mea
 
 |MariaDB        |⭐⭐⭐     |
 |MongoDB        |⭐⭐       |
+|SQL            |⭐⭐       |
+|GraphQL        |⭐⭐       |
 
 ## Build tools and Dependency Management
 

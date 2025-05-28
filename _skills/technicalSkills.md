@@ -4,53 +4,56 @@ title: "Technical Skills"
 weight: 1
 ---
 
-Here is a list of some of the technologies I have used for developing. It is meant to be a quick, scannable summary to help understand my familiarity with each technology. I am also enthusiastic about learning new technologies and deepen my expertise in the ones I already know.
+⭐/⭐⭐/⭐⭐⭐
+<p class="margin-on-bottom">The more stars, the more extensively I have used the technology. The skill ratings on this page compare my experience across technologies, not against other people.</p>
 
-⭐⭐⭐ **Familiar** – Long-term and extensive projects, a technology used frequently
+<h2>Programming Languages</h2>
+<table class="skill-table">
+    <tr><td>Java</td><td>⭐⭐⭐</td></tr>
+    <tr><td>JavaScript</td><td>⭐⭐⭐</td></tr>
+    <tr><td>TypeScript</td><td>⭐⭐</td></tr>
+    <tr><td>Python</td><td>⭐⭐</td></tr>
+</table>
 
-⭐⭐ **Basic Experience** – Smaller-scale projects, a technology used repeatedly
+<h2>Web and Markup Languages</h2>
+<table class="skill-table">
+    <tr><td>HTML</td><td>⭐⭐⭐</td></tr>
+    <tr><td>CSS</td><td>⭐⭐⭐</td></tr>
+    <tr><td>SCSS</td><td>⭐⭐</td></tr>
+    <tr><td>Markdown</td><td>⭐⭐</td></tr>
+</table>
 
-⭐ **Exploring** – Individual projects, familiar with the applied parts of the technology
+<h2>Frameworks and Libraries</h2>
+<table class="skill-table">
+    <tr><td>Node</td><td>⭐⭐⭐</td></tr>
+    <tr><td>Express</td><td>⭐⭐</td></tr>
+    <tr><td>React</td><td>⭐⭐</td></tr>
+    <tr><td>Hibernate</td><td>⭐⭐</td></tr>
+    <tr><td>Mongoose</td><td>⭐</td></tr>
+</table>
 
-## Programming languages
+<h2>Databases</h2>
+<table class="skill-table">
+    <tr><td>MariaDB</td><td>⭐⭐⭐</td></tr>
+    <tr><td>MongoDB</td><td>⭐⭐</td></tr>
+    <tr><td>SQL</td><td>⭐⭐</td></tr>
+    <tr><td>GraphQL</td><td>⭐⭐</td></tr>
+</table>
 
-|Java           |⭐⭐⭐     |
-|JavaScript     |⭐⭐⭐     |
-|TypeScript     |⭐⭐       |
-|Python         |⭐⭐       |
+<h2>Build tools and Dependency Management</h2>
+<table class="skill-table">
+    <tr><td>NPM</td><td>⭐⭐⭐</td></tr>
+    <tr><td>Maven</td><td>⭐⭐</td></tr>
+    <tr><td>Vite</td><td>⭐⭐</td></tr>
+    <tr><td>Bundler</td><td>⭐</td></tr>
+</table>
 
-## Web and Markup Languages
+<h2>Other Tools</h2>
+<table class="skill-table">
+    <tr><td>Git</td><td>⭐⭐⭐</td></tr>
+    <tr><td>GitHub</td><td>⭐⭐⭐</td></tr>
+    <tr><td>Azure</td><td>⭐⭐</td></tr>
+    <tr><td>Jekyll</td><td>⭐</td></tr>
+</table>
 
-|HTML           |⭐⭐⭐     |
-|CSS            |⭐⭐⭐     |
-|SCSS           |⭐⭐       |
-|Markdown       |⭐⭐       |
-
-## Frameworks and Libraries
-
-|Node           |⭐⭐⭐     |
-|Express        |⭐⭐       |
-|React          |⭐⭐       |
-|Hibernate      |⭐⭐       |
-|Mongoose       |⭐         |
-
-## Databases
-
-|MariaDB        |⭐⭐⭐     |
-|MongoDB        |⭐⭐       |
-|SQL            |⭐⭐       |
-|GraphQL        |⭐⭐       |
-
-## Build tools and Dependency Management
-
-|NPM            |⭐⭐⭐     |
-|Maven          |⭐⭐       |
-|Vite           |⭐⭐       |
-|Bundler        |⭐         |
-
-## Other Tools
-
-|Git            |⭐⭐⭐     |
-|Github         |⭐⭐⭐     |
-|Azure          |⭐⭐       |
-|Jekyll         |⭐         |
+<p class="margin-on-top"></p>

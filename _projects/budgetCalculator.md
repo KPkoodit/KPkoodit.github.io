@@ -4,7 +4,7 @@ title: "Budget Calculator"
 description: "Desktop app that helps you track your expenses with tables and graphs."
 technologies:
     - Java
-weight: 2
+weight: 3
 ---
 
 <p class="pink-border">This application is used for tracking expenses and calculating budget for the remaining month. The app allows users to add expenses into self created categories and provides graphs and charts to help them understand their spending habits better.</p>
@@ -15,6 +15,10 @@ weight: 2
 - Hanne Salmi
 - Minna Karhu
 - Katja Peltonen
+
+## Code
+The code and documentation is available here: 
+[Budjettisovellus](https://github.com/KPkoodit/Budjettisovellus)
 
 ## Technologies
 
@@ -28,20 +32,13 @@ weight: 2
 - **JUnit4**: A framework used for unit testing.
 - **Mockito**: A mocking framework used for testing.
 
+## My Responsibilities
+Backend functionalities enabling users to change expense categories, edit and delete categories, and filter expenses by category and time. Frontend refactoring and modernization using SceneBuilder. Continuous testing and bug fixing, in which everyone participated.
+
 ## Learning
 
-### My Responsibilities
-Backend functionalities enabling users to change expense categories, edit and delete categories, and filter expenses by category and time. Frontend refactoring and modernization using SceneBuilder. Continuous testing and bug fixing.
+- Full stack development
+- Scrum method
+- Importance of planning
+- Writing documentation
 
-### Scrum
-During the project, I became familiar with agile software development following the Scrum framework. The course lasted the entire spring semester, and the weeks were divided into sprints, during which predefined tasks were completed. Agile software development became an integral part of my workflow, and I have further reinforced this approach in later group projects.
-
-### Importance of Planning
-I learned the importance of planning in a concrete way, as the application's frontend was completely refactored during the development process. More thorough planning could have potentially reduced redundant work, saving both effort and time. As a result of this experience, my motivation for planning my work increased significantly.
-
-### Writing Documentation
-The project includes not only code but also technical documentation and a user guide, which gave me valuable experience in creating comprehensive documentation.
-
-## Code
-The code and documentation is available here: 
-[Budjettisovellus](https://github.com/KPkoodit/Budjettisovellus)

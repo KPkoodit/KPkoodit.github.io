@@ -4,7 +4,7 @@ title: "Exercises"
 description: "Some machine learning exercises. Theory put into practise."
 technologies:
     - Python
-weight: 5
+weight: 6
 ---
 
 <p class="pink-border">
@@ -21,6 +21,10 @@ Text analysis concerning affection status
 
 The documents are based on the work of three students during a machine learning course, me included. I rewrote the documents based on the feedback received and added comments for easier understanding.
 
+## Code
+The code is available here: 
+[Koneoppiminen](https://github.com/KPkoodit/Koneoppiminen)
+
 ## Technologies
 
 - Python
@@ -33,15 +37,8 @@ The documents are based on the work of three students during a machine learning 
 
 ## Learning
 
-### Data processing and visualization
-I learned to use the aforementioned Python libraries for data processing and visualization.
+- Data processing and visualization using Python
+- Working remotely with the team
+- Google Colab
+- JupyterLab
 
-### Google Colab
-I had the opportunity to use Google Colab for collaborative coding. We coded remotely via voice calls and took turns in the role of the writer. While one person was writing, the others provided comments or searched for solutions to problems.
-
-### JupyterLab
-While working independently, I learned to use JupyterLab locally in my own development environment.
-
-## Code
-The code is available here: 
-[Koneoppiminen](https://github.com/KPkoodit/Koneoppiminen)

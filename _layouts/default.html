@@ -4,11 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.5/dist/css/lightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/lightbox2-2.11.5/dist/css/lightbox.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
 
   <nav>
     <ul>
@@ -21,6 +20,6 @@
   <main>
     {{ content }}
   </main>
-
+  <script src="{{ '/assets/lightbox2-2.11.5/dist/js/lightbox-plus-jquery.js' | relative_url }}"></script>
 </body>
 </html>

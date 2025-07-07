@@ -10,8 +10,8 @@ weight: 1
 <h2>Programming Languages</h2>
 <table class="skill-table">
     <tr><td>Java</td><td>⭐⭐⭐</td></tr>
-    <tr><td>JavaScript</td><td>⭐⭐⭐</td></tr>
-    <tr><td>TypeScript</td><td>⭐⭐</td></tr>
+    <tr><td>JavaScript</td><td>⭐⭐</td></tr>
+    <tr><td>TypeScript</td><td>⭐⭐⭐</td></tr>
     <tr><td>Python</td><td>⭐⭐</td></tr>
 </table>
 
@@ -19,7 +19,7 @@ weight: 1
 <table class="skill-table">
     <tr><td>HTML</td><td>⭐⭐⭐</td></tr>
     <tr><td>CSS</td><td>⭐⭐⭐</td></tr>
-    <tr><td>SCSS</td><td>⭐⭐</td></tr>
+    <tr><td>SCSS</td><td>⭐</td></tr>
     <tr><td>Markdown</td><td>⭐⭐</td></tr>
 </table>
 

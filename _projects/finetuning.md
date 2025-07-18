@@ -34,66 +34,66 @@ The work is published on Theseus: <br>
 
 ## Gallery
 
-<a href="{{ '/assets/images/generated/1.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/1.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/1.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/1.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/14.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/14.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/14.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/14.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/25.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/25.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/25.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/25.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/26.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/26.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/26.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/26.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/38.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/38.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/38.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/38.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/40.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/40.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/40.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/40.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/45.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/45.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/45.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/45.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/48.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/48.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/48.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/48.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/62.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/62.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/62.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/62.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/63.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/63.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/63.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/63.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/65.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/65.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/65.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/65.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/66.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/66.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/66.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/66.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/68.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/68.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/68.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/68.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/81.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/81.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/81.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/81.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/83.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/83.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/83.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/83.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>
 
-<a href="{{ '/assets/images/generated/86.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
-  <img src="{{ '/assets/images/generated/86.jpg' | relative_url }}" alt="Generated African violet" style="max-width: 300px;">
+<a class="flex-center" href="{{ '/assets/images/generated/86.jpg' | relative_url }}" data-lightbox="generated" data-title="Generated African violet">
+  <img src="{{ '/assets/images/generated/86.jpg' | relative_url }}" alt="Generated African violet" class="landscape-img">
 </a>

@@ -5,7 +5,7 @@ weight: 1
 ---
 
 ⭐/⭐⭐/⭐⭐⭐
-<p class="margin-on-bottom">The more stars, the more extensively I have used the technology. The skill ratings on this page compare my experience across technologies, not against other people.</p>
+<p class="margin-on-bottom">The more stars, the more extensively I have used the technology. The ratings indicate how my experience with each technology compares to the others on this page.</p>
 
 <h2>Programming Languages</h2>
 <table class="skill-table">
@@ -40,7 +40,7 @@ weight: 1
     <tr><td>GraphQL</td><td>⭐⭐</td></tr>
 </table>
 
-<h2>Build tools and Dependency Management</h2>
+<h2>Build tools and Dependencies</h2>
 <table class="skill-table">
     <tr><td>NPM</td><td>⭐⭐⭐</td></tr>
     <tr><td>Maven</td><td>⭐⭐</td></tr>

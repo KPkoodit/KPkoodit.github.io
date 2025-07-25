@@ -4,7 +4,7 @@ title: "Portfolio"
 description: "The page you are visiting at the moment."
 technologies:
     - HTML
-    - Markdown
+    - CSS
 weight: 2
 ---
 

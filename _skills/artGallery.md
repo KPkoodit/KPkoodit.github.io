@@ -24,10 +24,10 @@ weight: 2
   <img src="{{ '/assets/images/art/nukke.jpg' | relative_url }}" alt="Pastel pencil drawing of a ball jointed doll. Based on a photo from the internet. A4" class="portrait-img">
 </a>
 
-<a class="flex-center" href="{{ '/assets/images/art/nuket_koitsukihime_kokokuva.jpg' | relative_url }}" data-lightbox="art" data-title="Pastel drawing of ball jointed dolls. Based on a photo by Koitsukihime. 180 cm x 120 cm">
-  <img src="{{ '/assets/images/art/nuket_koitsukihime_kokokuva.jpg' | relative_url }}" alt="Pastel drawing of ball jointed dolls. Based on a photo by Koitsukihime. 180 cm x 120 cm" class="portrait-img">
+<a class="flex-center" href="{{ '/assets/images/art/nuket.jpg' | relative_url }}" data-lightbox="art" data-title="Pastel drawing of ball jointed dolls. Based on a photo by Koitsukihime. 180 cm x 120 cm">
+  <img src="{{ '/assets/images/art/nuket.jpg' | relative_url }}" alt="Pastel drawing of ball jointed dolls. Based on a photo by Koitsukihime. 180 cm x 120 cm" class="portrait-img">
 </a>
 
-<a class="flex-center" href="{{ '/assets/images/art/nuket_koitsukihime_lahikuva.jpg' | relative_url }}" data-lightbox="art" data-title="Pastel drawing of ball jointed dolls. Based on a photo by Koitsukihime. Detail picture.">
-  <img src="{{ '/assets/images/art/nuket_koitsukihime_lahikuva.jpg' | relative_url }}" alt="Pastel drawing of ball jointed dolls. Based on photo by Koitsukihime. Detail picture." class="landscape-img">
+<a class="flex-center" href="{{ '/assets/images/art/nuket_lahikuva.jpg' | relative_url }}" data-lightbox="art" data-title="Pastel drawing of ball jointed dolls. Based on a photo by Koitsukihime. Detail picture.">
+  <img src="{{ '/assets/images/art/nuket_lahikuva.jpg' | relative_url }}" alt="Pastel drawing of ball jointed dolls. Based on photo by Koitsukihime. Detail picture." class="landscape-img">
 </a>

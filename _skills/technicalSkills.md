@@ -15,12 +15,11 @@ weight: 1
     <tr><td>Python</td><td>⭐⭐</td></tr>
 </table>
 
-<h2>Web and Markup Languages</h2>
+<h2>Web Languages</h2>
 <table class="skill-table">
     <tr><td>HTML</td><td>⭐⭐⭐</td></tr>
     <tr><td>CSS</td><td>⭐⭐⭐</td></tr>
     <tr><td>SCSS</td><td>⭐</td></tr>
-    <tr><td>Markdown</td><td>⭐⭐</td></tr>
 </table>
 
 <h2>Frameworks and Libraries</h2>
@@ -29,7 +28,6 @@ weight: 1
     <tr><td>Express</td><td>⭐⭐</td></tr>
     <tr><td>React</td><td>⭐⭐</td></tr>
     <tr><td>Hibernate</td><td>⭐⭐</td></tr>
-    <tr><td>Mongoose</td><td>⭐</td></tr>
 </table>
 
 <h2>Databases</h2>
@@ -45,7 +43,6 @@ weight: 1
     <tr><td>NPM</td><td>⭐⭐⭐</td></tr>
     <tr><td>Maven</td><td>⭐⭐</td></tr>
     <tr><td>Vite</td><td>⭐⭐</td></tr>
-    <tr><td>Bundler</td><td>⭐</td></tr>
 </table>
 
 <h2>Other Tools</h2>
@@ -53,7 +50,6 @@ weight: 1
     <tr><td>Git</td><td>⭐⭐⭐</td></tr>
     <tr><td>GitHub</td><td>⭐⭐⭐</td></tr>
     <tr><td>Azure</td><td>⭐⭐</td></tr>
-    <tr><td>Jekyll</td><td>⭐</td></tr>
 </table>
 
 <p class="margin-on-top"></p>

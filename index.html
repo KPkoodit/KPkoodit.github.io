@@ -7,9 +7,11 @@ title: Home
   <section class="first-section" id="about">
     <h1>About</h1>
     <p>Hello! My name is Katja and I am a final-year ICT student majoring in software engineering. 
-      This page highlights selected projects from my studies and the skills I have developed through them. <br><br>
-      I have also completed a vocational qualification in visual arts. The Art Gallery section features some of my favorite works from over the years.
-    </p>
+      This page highlights selected projects from my studies and the skills I have developed through them. </p>
+    <p>I have also completed a vocational qualification in visual arts.
+      The Art Gallery section features some of my favorite works from over the years.</p>
+    <p>
+      If you want to see code, click <a class="dark-link" href="https://github.com/KPkoodit">here</a>.</p>
   </section>
 
   <section id="projects">
@@ -20,14 +22,21 @@ title: Home
         <div class="project">
           <a href="{{ project.url }}" class="project-link">
             <div class="project-content">
-              <h3>{{ project.title }}</h3>
-              <ul class="custom-bullet-list">
-                {% for tech in project.technologies %}
-                  <li>{{ tech }}</li>
-                {% endfor %}
-              </ul>
-              <p>{{ project.description }}</p>
-              <p class="read-more">Read more →</p>
+              <div class=" description-container">
+                <div class="project-info">
+                  <h3>{{ project.title }}</h3>
+                  <ul class="custom-bullet-list">
+                    {% for tech in project.technologies %}
+                      <li>{{ tech }}</li>
+                    {% endfor %}
+                  </ul>
+                  <p class="description-p">{{ project.description }}</p>
+                  <p class="read-more">Read more →</p>
+                </div>
+                {% if project.image %}
+                  <img src="{{ project.image }}" alt="{{ project.title }} image" class="project-image">
+                {% endif %}
+              </div>
             </div>
           </a>
         </div>

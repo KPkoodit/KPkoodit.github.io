@@ -4,6 +4,7 @@ title: "Budget Calculator"
 description: "Desktop app that helps you track your expenses with tables and graphs."
 technologies:
     - Java
+image: /assets/images/background/diagram1.svg
 weight: 3
 ---
 
@@ -22,7 +23,6 @@ weight: 3
 </ul>
 
 ## Code
-The code and documentation is available here: 
 [Budjettisovellus](https://github.com/KPkoodit/Budjettisovellus)
 
 ## Technologies

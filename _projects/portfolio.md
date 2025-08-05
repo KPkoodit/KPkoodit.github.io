@@ -1,10 +1,11 @@
 ---
 layout: project
 title: "Portfolio"
-description: "The page you are visiting at the moment."
+description: "Frontend design for the page you are visiting at the moment."
 technologies:
     - HTML
     - CSS
+image: /assets/images/background/portt1.svg
 weight: 2
 ---
 
@@ -12,7 +13,6 @@ weight: 2
 <p>This is a portfolio created using Jekyll's default Ruby gem, Minima. The layout has been heavily modified from a blog to a portfolio, which allowed me to explore both Ruby gems and Jekyll's functionality.</p>
 
 ## Code
-The portfolio frontend code is available here: 
 [Portfolio](https://github.com/KPkoodit/KPkoodit.github.io)
 
 ## Technologies

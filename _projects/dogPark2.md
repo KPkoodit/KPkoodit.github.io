@@ -4,6 +4,7 @@ title: "DogPark 2.0"
 description: "Web app that maps dog-walking spots in Helsinki, letting users save favorite locations and set visit reminders."
 technologies:
     - TypeScript
+image: /assets/images/background/koir1.svg
 weight: 5
 ---
 
@@ -22,7 +23,6 @@ weight: 5
 
 ## Code
 
-<p>You can find the code from the following repositories: </p>
 [Koiratarha2.0 Client](https://github.com/KPkoodit/Koiratarha2.0-Client) <br>
 [Koiratarha2.0 GraphQL API](https://github.com/KPkoodit/Koiratarha2.0-API) <br>
 [Koiratarha2.0 REST AUTH](https://github.com/KPkoodit/Koiratarha2.0-Auth)

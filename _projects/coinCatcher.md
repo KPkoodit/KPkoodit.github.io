@@ -4,6 +4,7 @@ title: "Coin Catcher"
 description: "Game where the player competes against monsters to collect the most coins falling from the sky."
 technologies:
     - Python
+image: /assets/images/background/kolikk1.svg
 weight: 4
 ---
 
@@ -12,7 +13,6 @@ weight: 4
 <p>The game was created as a final project of the MOOC Programming course. Only given images (hirvio.png, kolikko.png, ovi.png and robo.png) were allowed to use and everything else should be created using Python.</p>
 
 ## Code
-The code is available here: 
 [KolikkoSieppari](https://github.com/KPkoodit/KolikkoSieppari)
 
 ## Technologies

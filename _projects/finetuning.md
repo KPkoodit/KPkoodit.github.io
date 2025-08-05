@@ -3,8 +3,10 @@ layout: project
 title: "Fine-tuning Stable Diffusion"
 description: "My thesis about fine-tuning Stable Diffusion on African violet dataset."
 technologies:
-    - Stable Diffusion XL
+    - Stable Diffusion
     - OneTrainer
+    - ComfyUI
+image: /assets/images/background/santtu1.svg
 weight: 1
 ---
 
@@ -16,7 +18,6 @@ weight: 1
 
 ## Location
 
-The work is published on Theseus: <br>
 [Fine-tuning Stable Diffusion on African violet dataset](https://urn.fi/URN:NBN:fi:amk-2025052114127)
 
 ## Technologies

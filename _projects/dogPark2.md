@@ -4,13 +4,14 @@ title: "DogPark 2.0"
 description: "Web app that maps dog-walking spots in Helsinki, letting users save favorite locations and set visit reminders."
 technologies:
     - TypeScript
+    - MongoDB
 image: /assets/images/background/koir1.svg
 weight: 5
 ---
 
 ## Introduction
 
-<p>Koiratarha 2.0 (DogPark 2.0) is a web application that uses the MyHelsinki Open API to show various public dog parks and other dog related areas on a map.</p>
+<p>Koiratarha 2.0 (DogPark 2.0) is a web application that uses MyHelsinki Open API to show various public dog parks and other dog related areas on a map.</p>
 <p>A user can register to the site to save their favourite locations and set reminders for visits to those locations. The app is a convenient place for all dog owners to find nearby and fun places to visit with their dogs.</p>
 
 ## Team

@@ -10,7 +10,8 @@ weight: 2
 ---
 
 ## Introduction
-<p>This is a portfolio created using Jekyll's default Ruby gem, Minima. The layout has been heavily modified from a blog to a portfolio, which allowed me to explore both Ruby gems and Jekyll's functionality.</p>
+<p>This is a website created using Jekyll's default Ruby gem, Minima. The layout has been heavily modified, which allowed me to explore both Ruby gems and Jekyll's functionality.</p>
+<p>I also created the vector graphics displayed on the website.</p>
 
 ## Code
 [Portfolio](https://github.com/KPkoodit/KPkoodit.github.io)
@@ -31,6 +32,7 @@ weight: 2
 <ul class="gradient-list">
     <li>Responsive layout</li>
     <li>Utilizing lightbox2 library</li>
+    <li>SVG image creation</li>
     <li>Jekyll theme customization</li>
 </ul>
 

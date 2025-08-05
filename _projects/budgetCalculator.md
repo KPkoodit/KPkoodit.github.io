@@ -4,6 +4,7 @@ title: "Budget Calculator"
 description: "Desktop app that helps you track your expenses with tables and graphs."
 technologies:
     - Java
+    - MariaDB
 image: /assets/images/background/diagram1.svg
 weight: 3
 ---

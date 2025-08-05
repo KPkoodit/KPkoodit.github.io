@@ -177,6 +177,10 @@ table.skill-table td:last-child {
     color: #707F99;
 }
 
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
 /* List stylings */
 .gradient-list {
     padding-left: 20px;
@@ -218,7 +222,7 @@ table.skill-table td:last-child {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.4em;
+  top: 0.38em;
   width: 6px;
   height: 6px;
   background-color: #DBA9B9;

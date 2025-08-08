@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 main {
@@ -18,6 +19,12 @@ main {
     justify-content: center;
     box-sizing: border-box;
     width: 100%;
+}
+
+/* Headers */
+h1, h2, h3, h4 {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
 }
 
 /* Mixins */
@@ -49,10 +56,6 @@ main {
 
 .project-content h3 {
     margin-top: 0;
-}
-
-.project-content .read-more {
-    margin-bottom: 0;
 }
 
 section {
@@ -172,14 +175,23 @@ table.skill-table td:last-child {
   padding-left: 10%;
 }
 
+.project-content .read-more {
+    margin-bottom: 0;
+}
+
 .project:hover .read-more, .skill:hover .read-more {
     text-decoration: underline;
+    color: #707F99;
 }
 
 .small-text {
     font-size: 11px;
     margin: 0;
     color: #CBC1D7;
+}
+
+.no-top-margin {
+    margin-top: 0;
 }
 
 .no-bottom-margin {
@@ -214,7 +226,8 @@ table.skill-table td:last-child {
     padding-left: 20px;
     margin: 0;
     list-style: none;
-    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .custom-bullet-list li {
@@ -224,14 +237,19 @@ table.skill-table td:last-child {
 }
 
 .custom-bullet-list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.38em;
-  width: 6px;
-  height: 6px;
-  background-color: #707F99;
-  border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 5.5px;
+    height: 5.5px;
+    background-color: #707F99;
+    border-radius: 50%;
+    display: block;
+    box-sizing: content-box;
+    backface-visibility: hidden;
+    will-change: transform;
 }
 
 /* Navigation bar styling */
@@ -273,6 +291,8 @@ nav ul li a {
     font-size: large;
     transition: color 0.3s ease-in-out;
     box-sizing: border-box;
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
 }
 
 nav ul li a:hover {
@@ -338,16 +358,11 @@ nav ul li a:hover {
     width: 45%;
 }
 
-.project-page p {
-    box-sizing: border-box;
-}
-
-.project-page a {
+.project-page a, .skill-page a {
     color: #333;
-    box-sizing: border-box;
 }
 
-.project-page a:hover {
+.project-page a:hover, .skill-page a:hover {
     color: #707F99;
 }
 
@@ -357,16 +372,19 @@ nav ul li a:hover {
     text-decoration: none;
     text-align: center;
     color: #333;
-    font-weight: bold;
     box-sizing: border-box;
 }
 
-.project-page .back-link:hover {
+.project-page .back-link:hover, .skill-page .back-link:hover {
     text-decoration: underline;
 }
 
 .dark-link {
     color: #333;
+}
+
+.dark-link:hover {
+    color: #707F99;
 }
 
 .skill-page li {
@@ -398,14 +416,17 @@ nav ul li a:hover {
 
 .generated-img {
     max-width: 100%;
+    display: block;
 }
 
 .portrait-img {
     max-width: 50%;
+    display: block;
 }
 
 .landscape-img {
     max-width: 80%;
+    display: block;
 }
 
 .flex-center {
@@ -468,10 +489,6 @@ nav ul li a:hover {
         padding: 60px 40px 20px 40px;
     }
 
-    .container h1 {
-        margin-bottom: 0;
-    }
-
     section {
         padding: 0 0 40px 0;
     }
@@ -490,22 +507,11 @@ nav ul li a:hover {
         width: 100%;
     }
 
-    .projects-grid {
-        grid-template-rows: auto;
-        grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
-        margin: 0 auto;
-        gap: 20px;
-    }
-
     .skills-grid {
         grid-template-rows: auto;
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         margin: 0 auto;
-        gap: 20px;
-    }
-
-    .project, .skill {
-        padding: 20px;
+        gap: 40px;
     }
 
     .project-page, .skill-page {
@@ -557,7 +563,7 @@ nav ul li a:hover {
     }
 
     .gallery a {
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .project-image {

@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="container">
-  <section class="first-section" id="about">
+  <section class="first-section section-style" id="about">
     <h1>About</h1>
     <p class="no-top-margin">Hello! My name is Katja and I am a recently graduated ICT Engineer with a major in Software Engineering. 
       This page highlights selected projects from my studies and the skills I have developed through them. </p>
@@ -14,7 +14,7 @@ title: Home
       If you want to see code, click <a class="dark-link" href="https://github.com/KPkoodit?tab=repositories">here</a>.</p>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="section-style">
     <h1>Projects</h1>
     <div class="projects-grid">
       {% assign sorted_projects = site.projects | sort: "weight" %}
@@ -44,7 +44,7 @@ title: Home
     </div>
   </section>
 
-  <section id="skills">
+  <section id="skills" class="section-style">
     <h1>Skills</h1>
     <div class="skills-grid">
       {% assign sorted_skills = site.skills | sort: "weight" %}

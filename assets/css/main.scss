@@ -19,12 +19,17 @@ main {
     justify-content: center;
     box-sizing: border-box;
     width: 100%;
+    background: linear-gradient(to right, #E0DAE7 0%, #ffffff 25%, #ffffff 75%, #E0DAE7 100%);
 }
 
 /* Common headers */
 h1, h2, h3, h4 {
     font-family: 'Source Serif 4', serif;
     font-weight: 600;
+}
+
+h1 {
+    font-size: 28px;
 }
 
 /* Mixins */
@@ -42,9 +47,9 @@ h1, h2, h3, h4 {
 .container {
     width: 100%;
     flex: 1 1 auto;
-    max-width: 600px;
+    max-width: 680px;
     margin: 0 auto;
-    padding: 60px 0 20px 0;
+    padding: 60px 40px 0 40px;
     box-sizing: border-box;
 }
 
@@ -79,6 +84,7 @@ h1, h2, h3, h4 {
     padding-bottom: 0;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .projects-grid {
@@ -100,7 +106,7 @@ h1, h2, h3, h4 {
 .project, .skill {
     padding: 20px;
     border-radius: 10px;
-    background: linear-gradient(to bottom right, white 0%, #E0DAE7 100%);
+    background: linear-gradient(to bottom right, white 0%, #C0B4CF 100%);
     display: flex;
     align-content: center;
     position: relative;
@@ -149,8 +155,8 @@ h1, h2, h3, h4 {
     height: 100%;
     margin: 0 auto;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 12px 12px rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 12px 12px rgba(255, 255, 255, 0.7);
 }
 
 .skill-content {
@@ -163,8 +169,8 @@ h1, h2, h3, h4 {
     height: 100%;
     margin: 0 auto;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 12px 12px rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 12px 12px rgba(255, 255, 255, 0.7);
 }
 
 .skill-content h3, .skill-content p {
@@ -179,12 +185,8 @@ h1, h2, h3, h4 {
 }
 
 table.skill-table td:first-child {
-  width: 100px;
   vertical-align: top;
-}
-
-table.skill-table td:last-child {
-  padding-left: 10%;
+  padding-left: 0;
 }
 
 .project-content .read-more {
@@ -275,7 +277,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(to bottom, #E0DAE7 0%, #ffffff 25%, #ffffff 75%, #E0DAE7 100%);
+    background: linear-gradient(to bottom, #E0DAE7 0%, #F5F3F7 25%, #F5F3F7 75%, #E0DAE7 100%);
     height: 60px;
     padding: 0;
     line-height: 60px;
@@ -319,8 +321,8 @@ nav ul li a:hover {
 /* Project page and skill page */
 .project-page, .skill-page {
     flex: 0 1 600px;
-    max-width: 600px;
-    margin: 100px auto 40px auto;
+    max-width: 680px;
+    margin: 40px auto;
     padding: 40px;
     box-sizing: border-box;
     background: linear-gradient(to bottom right, white 0%, #E0DAE7 100%);
@@ -478,16 +480,20 @@ nav ul li a:hover {
 
 /* Media Queries */
 @media (max-width: 1200px) {
+    main {
+        background: linear-gradient(to right, #E0DAE7 0%, #ffffff 15%, #ffffff 85%, #E0DAE7 100%);
+    }
+
     .container {
         max-width: 600px;
-        padding: 60px 40px 20px 40px;
+        padding: 60px 40px 0 40px;
     }
 
     .project-page, .skill-page {
         flex: 0 1 520px;
         max-width: 520px;
-        margin: 100px 40px 40px 40px;
         padding: 40px;
+        margin: 40px auto 40px auto;
     }
 
     .page-content {
@@ -516,19 +522,22 @@ nav ul li a:hover {
     .skill-page-container {
         gap: 20px;
     }
+}
 
-    table.skill-table td:first-child {
-        width: 80px;
+@media (max-width: 880px) {
+    main {
+        background: #ffffff;
     }
 }
 
 @media (max-width: 640px) {
     main {
         flex-direction: column;
+        
     }
 
     .container {
-        padding: 60px 40px 20px 40px;
+        padding: 60px 40px 0 40px;
     }
 
     section {
@@ -557,7 +566,7 @@ nav ul li a:hover {
     }
 
     .project-page, .skill-page {
-        margin: 100px 40px 40px 40px;
+        margin: 40px auto;
         padding: 40px;
     }
 
@@ -578,6 +587,7 @@ nav ul li a:hover {
 
     .skill-section {
         width: 60%;
+        padding: 0;
     }
 
     .tech-container {
